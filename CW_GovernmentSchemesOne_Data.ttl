@@ -1,0 +1,1493 @@
+@prefix : <http://cw1.comp6214.org/covid19/GovernmentSchemesOne/data/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix acco: <http://purl.org/acco/ns#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+
+@prefix CW_businessInvestigation: <http://cw1.comp6214.org/covid19/schema> .
+
+:Time_4/2020-5/2020 rdf:type CW_businessInvestigation:_TimePeriods;
+	dc:title "4/2020-5/2020";
+	acco:min "Time_6/4/2020"^^xsd:_data;
+	acco:max "Time_19/4/2020"^^xsd:_data .
+
+:CW_Industries rdf:type CW_businessInvestigation:CW_GovernmentSchemes;
+	dc:title "different industries" .
+
+:Time_4/2020-5/2020 rdf:type CW_businessInvestigation:_TimePeriods;
+	dc:title "4/2020-5/2020";
+	acco:min "Time_6/4/2020"^^xsd:_data;
+	acco:max "Time_19/4/2020"^^xsd:_data .
+
+:CW_WorkforceSizes rdf:type CW_businessInvestigation:CW_GovernmentSchemes;
+	dc:title "different worksizes" .
+
+:Time_4/2020-5/2020 rdf:type CW_businessInvestigation:_TimePeriods;
+	dc:title "4/2020-5/2020";
+	acco:min "Time_6/4/2020"^^xsd:_data;
+	acco:max "Time_19/4/2020"^^xsd:_data .
+
+:CW_Countries rdf:type CW_businessInvestigation:CW_GovernmentSchemes;
+	dc:title "different countries" .
+
+:CoronavirusJobRetentionScheme rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Coronavirus Job Retention Scheme" .
+
+:Businessratesholiday rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Business rates holiday" .
+
+:DeferringVATpayments rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Deferring VAT payments" .
+
+:HMRCTimeToPayscheme rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "HMRC Time To Pay scheme" .
+
+:Governmenttofundedsmallbusinessgrantorloanschemes rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Government-funded small business grant or loan schemes" .
+
+:Accreditedfinanceagreements rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Accredited finance agreements" .
+
+:Wehavenotappliedforanyoftheseinitiatives rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "We have not applied for any of these initiatives" .
+
+:Manufacturing rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Manufacturing" .
+
+:WaterSupplySewerageWasteManagementAndRemediationActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Water Supply; Sewerage; Waste Management And Remediation Activities" .
+
+:Construction rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Construction" .
+
+:WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles" .
+
+:AccommodationAndFoodServiceActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Accommodation And Food Service Activities" .
+
+:TransportationAndStorage rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Transportation And Storage" .
+
+:InformationAndCommunication rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Information And Communication" .
+
+:ProfessionalScientificAndTechnicalActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Professional; Scientific And Technical Activities" .
+
+:AdministrativeAndSupportServiceActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Administrative And Support Service Activities" .
+
+:Education rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Education" .
+
+:HumanHealthAndSocialWorkActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Human Health And Social Work Activities" .
+
+:ArtsEntertainmentAndRecreation rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Arts; Entertainment And Recreation" .
+
+:AllIndustries rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "All Industries" .
+
+:CoronavirusJobRetentionScheme rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Coronavirus Job Retention Scheme" .
+
+:Businessratesholiday rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Business rates holiday" .
+
+:DeferringVATpayments rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Deferring VAT payments" .
+
+:HMRCTimeToPayscheme rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "HMRC Time To Pay scheme" .
+
+:Governmenttofundedsmallbusinessgrantorloanschemes rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Government-funded small business grant or loan schemes" .
+
+:Accreditedfinanceagreements rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Accredited finance agreements" .
+
+:Wehavenotappliedforanyoftheseinitiatives rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "We have not applied for any of these initiatives" .
+
+:lessThan250 rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "< 250" .
+
+:250+ rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "250 +" .
+
+:AllSizeBands rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "All Size Bands" .
+
+:CoronavirusJobRetentionScheme rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Coronavirus Job Retention Scheme" .
+
+:Businessratesholiday rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Business rates holiday" .
+
+:DeferringVATpayments rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Deferring VAT payments" .
+
+:HMRCTimeToPayscheme rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "HMRC Time To Pay scheme" .
+
+:Governmenttofundedsmallbusinessgrantorloanschemes rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Government-funded small business grant or loan schemes" .
+
+:Accreditedfinanceagreements rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "Accredited finance agreements" .
+
+:Wehavenotappliedforanyoftheseinitiatives rdf:type CW_businessInvestigation:CW_Initiatives;
+	 dc:title "We have not applied for any of these initiatives" .
+
+:England rdf:type CW_businessInvestigation:CW_Countries;
+	 dc:title "England" .
+
+:Wales rdf:type CW_businessInvestigation:CW_Countries;
+	 dc:title "Wales" .
+
+:Scotland rdf:type CW_businessInvestigation:CW_Countries;
+	 dc:title "Scotland" .
+
+:NorthernIreland rdf:type CW_businessInvestigation:CW_Countries;
+	 dc:title "Northern Ireland" .
+
+:UK rdf:type CW_businessInvestigation:CW_Countries;
+	 dc:title "UK" .
+
+:ds1 rdf:type qb:Dataset;
+	dc:title "applied following initiatives, proportion continuing trading or permanently ceased trading or temporarily closed, different industries";
+	qb:Slice :ds1_5_2;
+	qb:Slice :ds1_5_3;
+	qb:Slice :ds1_5_4;
+	qb:Slice :ds1_5_5;
+	qb:Slice :ds1_5_6;
+	qb:Slice :ds1_5_7;
+	qb:Slice :ds1_5_8;
+	qb:Slice :ds1_6_2;
+	qb:Slice :ds1_6_3;
+	qb:Slice :ds1_6_4;
+	qb:Slice :ds1_6_5;
+	qb:Slice :ds1_6_6;
+	qb:Slice :ds1_6_7;
+	qb:Slice :ds1_6_8;
+	qb:Slice :ds1_7_2;
+	qb:Slice :ds1_7_3;
+	qb:Slice :ds1_7_4;
+	qb:Slice :ds1_7_5;
+	qb:Slice :ds1_7_6;
+	qb:Slice :ds1_7_7;
+	qb:Slice :ds1_7_8;
+	qb:Slice :ds1_8_2;
+	qb:Slice :ds1_8_3;
+	qb:Slice :ds1_8_4;
+	qb:Slice :ds1_8_5;
+	qb:Slice :ds1_8_6;
+	qb:Slice :ds1_8_7;
+	qb:Slice :ds1_8_8;
+	qb:Slice :ds1_9_2;
+	qb:Slice :ds1_9_3;
+	qb:Slice :ds1_9_4;
+	qb:Slice :ds1_9_5;
+	qb:Slice :ds1_9_6;
+	qb:Slice :ds1_9_7;
+	qb:Slice :ds1_9_8;
+	qb:Slice :ds1_10_2;
+	qb:Slice :ds1_10_3;
+	qb:Slice :ds1_10_4;
+	qb:Slice :ds1_10_5;
+	qb:Slice :ds1_10_6;
+	qb:Slice :ds1_10_7;
+	qb:Slice :ds1_10_8;
+	qb:Slice :ds1_11_2;
+	qb:Slice :ds1_11_3;
+	qb:Slice :ds1_11_4;
+	qb:Slice :ds1_11_5;
+	qb:Slice :ds1_11_6;
+	qb:Slice :ds1_11_7;
+	qb:Slice :ds1_11_8;
+	qb:Slice :ds1_12_2;
+	qb:Slice :ds1_12_3;
+	qb:Slice :ds1_12_4;
+	qb:Slice :ds1_12_5;
+	qb:Slice :ds1_12_6;
+	qb:Slice :ds1_12_7;
+	qb:Slice :ds1_12_8;
+	qb:Slice :ds1_13_2;
+	qb:Slice :ds1_13_3;
+	qb:Slice :ds1_13_4;
+	qb:Slice :ds1_13_5;
+	qb:Slice :ds1_13_6;
+	qb:Slice :ds1_13_7;
+	qb:Slice :ds1_13_8;
+	qb:Slice :ds1_14_2;
+	qb:Slice :ds1_14_3;
+	qb:Slice :ds1_14_4;
+	qb:Slice :ds1_14_5;
+	qb:Slice :ds1_14_6;
+	qb:Slice :ds1_14_7;
+	qb:Slice :ds1_14_8;
+	qb:Slice :ds1_15_2;
+	qb:Slice :ds1_15_3;
+	qb:Slice :ds1_15_4;
+	qb:Slice :ds1_15_5;
+	qb:Slice :ds1_15_6;
+	qb:Slice :ds1_15_7;
+	qb:Slice :ds1_15_8;
+	qb:Slice :ds1_16_2;
+	qb:Slice :ds1_16_3;
+	qb:Slice :ds1_16_4;
+	qb:Slice :ds1_16_5;
+	qb:Slice :ds1_16_6;
+	qb:Slice :ds1_16_7;
+	qb:Slice :ds1_16_8;
+	qb:Slice :ds1_17_2;
+	qb:Slice :ds1_17_3;
+	qb:Slice :ds1_17_4;
+	qb:Slice :ds1_17_5;
+	qb:Slice :ds1_17_6;
+	qb:Slice :ds1_17_7;
+	qb:Slice :ds1_17_8 .
+
+:ds2 rdf:type qb:Dataset;
+	dc:title "applied following initiatives, proportion continuing trading or permanently ceased trading or temporarily closed, different worksizes";
+	qb:Slice :ds2_29_2;
+	qb:Slice :ds2_29_3;
+	qb:Slice :ds2_29_4;
+	qb:Slice :ds2_29_5;
+	qb:Slice :ds2_29_6;
+	qb:Slice :ds2_29_7;
+	qb:Slice :ds2_29_8;
+	qb:Slice :ds2_30_2;
+	qb:Slice :ds2_30_3;
+	qb:Slice :ds2_30_4;
+	qb:Slice :ds2_30_5;
+	qb:Slice :ds2_30_6;
+	qb:Slice :ds2_30_7;
+	qb:Slice :ds2_30_8;
+	qb:Slice :ds2_31_2;
+	qb:Slice :ds2_31_3;
+	qb:Slice :ds2_31_4;
+	qb:Slice :ds2_31_5;
+	qb:Slice :ds2_31_6;
+	qb:Slice :ds2_31_7;
+	qb:Slice :ds2_31_8 .
+
+:ds3 rdf:type qb:Dataset;
+	dc:title "applied following initiatives, proportion continuing trading or permanently ceased trading or temporarily closed, different countries";
+	qb:Slice :ds3_42_2;
+	qb:Slice :ds3_42_3;
+	qb:Slice :ds3_42_4;
+	qb:Slice :ds3_42_5;
+	qb:Slice :ds3_42_6;
+	qb:Slice :ds3_42_7;
+	qb:Slice :ds3_42_8;
+	qb:Slice :ds3_43_2;
+	qb:Slice :ds3_43_3;
+	qb:Slice :ds3_43_4;
+	qb:Slice :ds3_43_5;
+	qb:Slice :ds3_43_6;
+	qb:Slice :ds3_43_7;
+	qb:Slice :ds3_43_8;
+	qb:Slice :ds3_44_2;
+	qb:Slice :ds3_44_3;
+	qb:Slice :ds3_44_4;
+	qb:Slice :ds3_44_5;
+	qb:Slice :ds3_44_6;
+	qb:Slice :ds3_44_7;
+	qb:Slice :ds3_44_8;
+	qb:Slice :ds3_45_2;
+	qb:Slice :ds3_45_3;
+	qb:Slice :ds3_45_4;
+	qb:Slice :ds3_45_5;
+	qb:Slice :ds3_45_6;
+	qb:Slice :ds3_45_7;
+	qb:Slice :ds3_45_8;
+	qb:Slice :ds3_46_2;
+	qb:Slice :ds3_46_3;
+	qb:Slice :ds3_46_4;
+	qb:Slice :ds3_46_5;
+	qb:Slice :ds3_46_6;
+	qb:Slice :ds3_46_7;
+	qb:Slice :ds3_46_8 .
+
+:ds1_5_2 rdf:type qb:Observation;
+	rdf:value 0.635;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_3 rdf:type qb:Observation;
+	rdf:value 0.14;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_4 rdf:type qb:Observation;
+	rdf:value 0.443;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_5 rdf:type qb:Observation;
+	rdf:value 0.193;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_6 rdf:type qb:Observation;
+	rdf:value 0.048;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_7 rdf:type qb:Observation;
+	rdf:value 0.086;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_8 rdf:type qb:Observation;
+	rdf:value 0.26;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_2 rdf:type qb:Observation;
+	rdf:value 0.686;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_3 rdf:type qb:Observation;
+	rdf:value 0.157;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_4 rdf:type qb:Observation;
+	rdf:value 0.571;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_5 rdf:type qb:Observation;
+	rdf:value 0.214;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_6 rdf:type qb:Observation;
+	rdf:value 0.057;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_7 rdf:type qb:Observation;
+	rdf:value 0.1;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_8 rdf:type qb:Observation;
+	rdf:value 0.214;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_2 rdf:type qb:Observation;
+	rdf:value 0.809;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_3 rdf:type qb:Observation;
+	rdf:value 0.135;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_4 rdf:type qb:Observation;
+	rdf:value 0.599;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_5 rdf:type qb:Observation;
+	rdf:value 0.287;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_6 rdf:type qb:Observation;
+	rdf:value 0.06;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_7 rdf:type qb:Observation;
+	rdf:value 0.096;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_8 rdf:type qb:Observation;
+	rdf:value 0.117;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_2 rdf:type qb:Observation;
+	rdf:value 0.726;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_3 rdf:type qb:Observation;
+	rdf:value 0.446;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_4 rdf:type qb:Observation;
+	rdf:value 0.601;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_5 rdf:type qb:Observation;
+	rdf:value 0.25;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_6 rdf:type qb:Observation;
+	rdf:value 0.133;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_7 rdf:type qb:Observation;
+	rdf:value 0.09;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_8 rdf:type qb:Observation;
+	rdf:value 0.155;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_2 rdf:type qb:Observation;
+	rdf:value 0.871;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_3 rdf:type qb:Observation;
+	rdf:value 0.782;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_4 rdf:type qb:Observation;
+	rdf:value 0.806;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_5 rdf:type qb:Observation;
+	rdf:value 0.422;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_6 rdf:type qb:Observation;
+	rdf:value 0.249;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_7 rdf:type qb:Observation;
+	rdf:value 0.206;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_8 rdf:type qb:Observation;
+	rdf:value 0.027;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_2 rdf:type qb:Observation;
+	rdf:value 0.766;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_3 rdf:type qb:Observation;
+	rdf:value 0.241;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_4 rdf:type qb:Observation;
+	rdf:value 0.553;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_5 rdf:type qb:Observation;
+	rdf:value 0.248;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_6 rdf:type qb:Observation;
+	rdf:value 0.064;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_7 rdf:type qb:Observation;
+	rdf:value 0.092;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_8 rdf:type qb:Observation;
+	rdf:value 0.167;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_2 rdf:type qb:Observation;
+	rdf:value 0.401;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_3 rdf:type qb:Observation;
+	rdf:value 0.082;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_4 rdf:type qb:Observation;
+	rdf:value 0.474;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_5 rdf:type qb:Observation;
+	rdf:value 0.137;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_6 rdf:type qb:Observation;
+	rdf:value 0.036;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_7 rdf:type qb:Observation;
+	rdf:value 0.038;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_8 rdf:type qb:Observation;
+	rdf:value 0.373;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_2 rdf:type qb:Observation;
+	rdf:value 0.622;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_3 rdf:type qb:Observation;
+	rdf:value 0.126;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_4 rdf:type qb:Observation;
+	rdf:value 0.662;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_5 rdf:type qb:Observation;
+	rdf:value 0.186;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_6 rdf:type qb:Observation;
+	rdf:value 0.049;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_7 rdf:type qb:Observation;
+	rdf:value 0.081;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_8 rdf:type qb:Observation;
+	rdf:value 0.207;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_2 rdf:type qb:Observation;
+	rdf:value 0.757;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_3 rdf:type qb:Observation;
+	rdf:value 0.201;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_4 rdf:type qb:Observation;
+	rdf:value 0.637;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_5 rdf:type qb:Observation;
+	rdf:value 0.205;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_6 rdf:type qb:Observation;
+	rdf:value 0.218;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_7 rdf:type qb:Observation;
+	rdf:value 0.123;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_8 rdf:type qb:Observation;
+	rdf:value 0.139;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_2 rdf:type qb:Observation;
+	rdf:value 0.405;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_3 rdf:type qb:Observation;
+	rdf:value 0.085;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_4 rdf:type qb:Observation;
+	rdf:value 0.263;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_5 rdf:type qb:Observation;
+	rdf:value 0.07;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_6 rdf:type qb:Observation;
+	rdf:value 0.022;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_7 rdf:type qb:Observation;
+	rdf:value 0.028;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_8 rdf:type qb:Observation;
+	rdf:value 0.484;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_2 rdf:type qb:Observation;
+	rdf:value 0.345;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_3 rdf:type qb:Observation;
+	rdf:value 0.134;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_4 rdf:type qb:Observation;
+	rdf:value 0.162;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_5 rdf:type qb:Observation;
+	rdf:value 0.063;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_6 rdf:type qb:Observation;
+	rdf:value 0.106;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_7 rdf:type qb:Observation;
+	rdf:value 0.028;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_8 rdf:type qb:Observation;
+	rdf:value 0.556;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_2 rdf:type qb:Observation;
+	rdf:value 0.763;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_3 rdf:type qb:Observation;
+	rdf:value 0.572;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_4 rdf:type qb:Observation;
+	rdf:value 0.612;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_5 rdf:type qb:Observation;
+	rdf:value 0.331;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_6 rdf:type qb:Observation;
+	rdf:value 0.18;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_7 rdf:type qb:Observation;
+	rdf:value 0.183;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_8 rdf:type qb:Observation;
+	rdf:value 0.126;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_2 rdf:type qb:Observation;
+	rdf:value 0.672;
+	qb:dataset :ds1;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_3 rdf:type qb:Observation;
+	rdf:value 0.274;
+	qb:dataset :ds1;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_4 rdf:type qb:Observation;
+	rdf:value 0.564;
+	qb:dataset :ds1;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_5 rdf:type qb:Observation;
+	rdf:value 0.223;
+	qb:dataset :ds1;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_6 rdf:type qb:Observation;
+	rdf:value 0.112;
+	qb:dataset :ds1;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_7 rdf:type qb:Observation;
+	rdf:value 0.099;
+	qb:dataset :ds1;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_8 rdf:type qb:Observation;
+	rdf:value 0.207;
+	qb:dataset :ds1;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds2_29_2 rdf:type qb:Observation;
+	rdf:value 0.687;
+	qb:dataset :ds2;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_29_3 rdf:type qb:Observation;
+	rdf:value 0.272;
+	qb:dataset :ds2;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_29_4 rdf:type qb:Observation;
+	rdf:value 0.56;
+	qb:dataset :ds2;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_29_5 rdf:type qb:Observation;
+	rdf:value 0.224;
+	qb:dataset :ds2;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_29_6 rdf:type qb:Observation;
+	rdf:value 0.135;
+	qb:dataset :ds2;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_29_7 rdf:type qb:Observation;
+	rdf:value 0.112;
+	qb:dataset :ds2;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_29_8 rdf:type qb:Observation;
+	rdf:value 0.198;
+	qb:dataset :ds2;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :lessThan250;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_2 rdf:type qb:Observation;
+	rdf:value 0.647;
+	qb:dataset :ds2;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_3 rdf:type qb:Observation;
+	rdf:value 0.279;
+	qb:dataset :ds2;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_4 rdf:type qb:Observation;
+	rdf:value 0.571;
+	qb:dataset :ds2;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_5 rdf:type qb:Observation;
+	rdf:value 0.222;
+	qb:dataset :ds2;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_6 rdf:type qb:Observation;
+	rdf:value 0.073123;
+	qb:dataset :ds2;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_7 rdf:type qb:Observation;
+	rdf:value 0.079;
+	qb:dataset :ds2;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_30_8 rdf:type qb:Observation;
+	rdf:value 0.223;
+	qb:dataset :ds2;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :250+;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_2 rdf:type qb:Observation;
+	rdf:value 0.672;
+	qb:dataset :ds2;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_3 rdf:type qb:Observation;
+	rdf:value 0.274;
+	qb:dataset :ds2;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_4 rdf:type qb:Observation;
+	rdf:value 0.564;
+	qb:dataset :ds2;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_5 rdf:type qb:Observation;
+	rdf:value 0.223;
+	qb:dataset :ds2;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_6 rdf:type qb:Observation;
+	rdf:value 0.112;
+	qb:dataset :ds2;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_7 rdf:type qb:Observation;
+	rdf:value 0.099;
+	qb:dataset :ds2;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_31_8 rdf:type qb:Observation;
+	rdf:value 0.207;
+	qb:dataset :ds2;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :AllSizeBands;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds3_42_2 rdf:type qb:Observation;
+	rdf:value 0.673;
+	qb:dataset :ds3;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_42_3 rdf:type qb:Observation;
+	rdf:value 0.274;
+	qb:dataset :ds3;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_42_4 rdf:type qb:Observation;
+	rdf:value 0.573;
+	qb:dataset :ds3;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_42_5 rdf:type qb:Observation;
+	rdf:value 0.224;
+	qb:dataset :ds3;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_42_6 rdf:type qb:Observation;
+	rdf:value 0.109;
+	qb:dataset :ds3;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_42_7 rdf:type qb:Observation;
+	rdf:value 0.097;
+	qb:dataset :ds3;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_42_8 rdf:type qb:Observation;
+	rdf:value 0.205;
+	qb:dataset :ds3;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :England;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_2 rdf:type qb:Observation;
+	rdf:value 0.738;
+	qb:dataset :ds3;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_3 rdf:type qb:Observation;
+	rdf:value 0.387;
+	qb:dataset :ds3;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_4 rdf:type qb:Observation;
+	rdf:value 0.651;
+	qb:dataset :ds3;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_5 rdf:type qb:Observation;
+	rdf:value 0.255;
+	qb:dataset :ds3;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_6 rdf:type qb:Observation;
+	rdf:value 0.137;
+	qb:dataset :ds3;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_7 rdf:type qb:Observation;
+	rdf:value 0.127;
+	qb:dataset :ds3;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_43_8 rdf:type qb:Observation;
+	rdf:value 0.134;
+	qb:dataset :ds3;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :Wales;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_2 rdf:type qb:Observation;
+	rdf:value 0.717;
+	qb:dataset :ds3;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_3 rdf:type qb:Observation;
+	rdf:value 0.29;
+	qb:dataset :ds3;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_4 rdf:type qb:Observation;
+	rdf:value 0.63;
+	qb:dataset :ds3;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_5 rdf:type qb:Observation;
+	rdf:value 0.235;
+	qb:dataset :ds3;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_6 rdf:type qb:Observation;
+	rdf:value 0.075;
+	qb:dataset :ds3;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_7 rdf:type qb:Observation;
+	rdf:value 0.098;
+	qb:dataset :ds3;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_44_8 rdf:type qb:Observation;
+	rdf:value 0.165;
+	qb:dataset :ds3;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :Scotland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_2 rdf:type qb:Observation;
+	rdf:value 0.652;
+	qb:dataset :ds3;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_3 rdf:type qb:Observation;
+	rdf:value 0.304;
+	qb:dataset :ds3;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_4 rdf:type qb:Observation;
+	rdf:value 0.402;
+	qb:dataset :ds3;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_5 rdf:type qb:Observation;
+	rdf:value 0.13;
+	qb:dataset :ds3;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_6 rdf:type qb:Observation;
+	rdf:value 0.109;
+	qb:dataset :ds3;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_7 rdf:type qb:Observation;
+	rdf:value 0.065;
+	qb:dataset :ds3;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_45_8 rdf:type qb:Observation;
+	rdf:value 0.239;
+	qb:dataset :ds3;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :NorthernIreland;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_2 rdf:type qb:Observation;
+	rdf:value 0.672;
+	qb:dataset :ds3;
+	qb:dimension :CoronavirusJobRetentionScheme;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_3 rdf:type qb:Observation;
+	rdf:value 0.274;
+	qb:dataset :ds3;
+	qb:dimension :Businessratesholiday;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_4 rdf:type qb:Observation;
+	rdf:value 0.564;
+	qb:dataset :ds3;
+	qb:dimension :DeferringVATpayments;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_5 rdf:type qb:Observation;
+	rdf:value 0.223;
+	qb:dataset :ds3;
+	qb:dimension :HMRCTimeToPayscheme;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_6 rdf:type qb:Observation;
+	rdf:value 0.112;
+	qb:dataset :ds3;
+	qb:dimension :Governmenttofundedsmallbusinessgrantorloanschemes;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_7 rdf:type qb:Observation;
+	rdf:value 0.099;
+	qb:dataset :ds3;
+	qb:dimension :Accreditedfinanceagreements;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+
+:ds3_46_8 rdf:type qb:Observation;
+	rdf:value 0.207;
+	qb:dataset :ds3;
+	qb:dimension :Wehavenotappliedforanyoftheseinitiatives;
+	qb:dimension :UK;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Countries .
+

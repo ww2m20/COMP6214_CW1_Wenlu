@@ -1,0 +1,573 @@
+@prefix : <http://cw1.comp6214.org/covid19/SampleSize/data/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix acco: <http://purl.org/acco/ns#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+
+@prefix CW_businessInvestigation: <http://cw1.comp6214.org/covid19/schema> .
+
+:Time_4/2020-5/2020 rdf:type CW_businessInvestigation:_TimePeriods;
+	dc:title "4/2020-5/2020";
+	acco:min "Time_6/4/2020"^^xsd:_data;
+	acco:max "Time_19/4/2020"^^xsd:_data .
+
+:CW_Industries rdf:type CW_businessInvestigation:CW_SampleSizes;
+	dc:title "different industries" .
+
+:Time_4/2020-5/2020 rdf:type CW_businessInvestigation:_TimePeriods;
+	dc:title "4/2020-5/2020";
+	acco:min "Time_6/4/2020"^^xsd:_data;
+	acco:max "Time_19/4/2020"^^xsd:_data .
+
+:CW_WorkforceSizes rdf:type CW_businessInvestigation:CW_SampleSizes;
+	dc:title "different workforceSizes" .
+
+:WorkforceSizelessThan250 rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Workforce Size < 250" .
+
+:WorkforceSize250+ rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Workforce Size 250 +" .
+
+:Total rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Total" .
+
+:MiningAndQuarrying rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Mining And Quarrying" .
+
+:Manufacturing rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Manufacturing" .
+
+:WaterSupplySewerageWasteManagementAndRemediationActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Water Supply; Sewerage; Waste Management And Remediation Activities" .
+
+:Construction rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Construction" .
+
+:WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles" .
+
+:AccommodationAndFoodServiceActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Accommodation And Food Service Activities" .
+
+:TransportationAndStorage rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Transportation And Storage" .
+
+:InformationAndCommunication rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Information And Communication" .
+
+:RealEstateActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Real Estate Activities" .
+
+:ProfessionalScientificAndTechnicalActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Professional; Scientific And Technical Activities" .
+
+:AdministrativeAndSupportServiceActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Administrative And Support Service Activities" .
+
+:Education rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Education" .
+
+:HumanHealthAndSocialWorkActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Human Health And Social Work Activities" .
+
+:ArtsEntertainmentAndRecreation rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Arts; Entertainment And Recreation" .
+
+:OtherServiceActivities rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "Other Service Activities" .
+
+:AllIndustries rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "All Industries" .
+
+:WorkforceSize0to99 rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Workforce Size 0 - 99" .
+
+:WorkforceSize100to249 rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Workforce Size 100 - 249" .
+
+:WorkforceSize250+ rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Workforce Size 250 +" .
+
+:Total rdf:type CW_businessInvestigation:CW_WorkforceSizes;
+	 dc:title "Total" .
+
+:AllIndustries rdf:type CW_businessInvestigation:CW_Industries;
+	 dc:title "All Industries" .
+
+:ds1 rdf:type qb:Dataset;
+	dc:title "Survey sample of different industries";
+	qb:Slice :ds1_5_2;
+	qb:Slice :ds1_5_3;
+	qb:Slice :ds1_5_4;
+	qb:Slice :ds1_6_2;
+	qb:Slice :ds1_6_3;
+	qb:Slice :ds1_6_4;
+	qb:Slice :ds1_7_2;
+	qb:Slice :ds1_7_3;
+	qb:Slice :ds1_7_4;
+	qb:Slice :ds1_8_2;
+	qb:Slice :ds1_8_3;
+	qb:Slice :ds1_8_4;
+	qb:Slice :ds1_9_2;
+	qb:Slice :ds1_9_3;
+	qb:Slice :ds1_9_4;
+	qb:Slice :ds1_10_2;
+	qb:Slice :ds1_10_3;
+	qb:Slice :ds1_10_4;
+	qb:Slice :ds1_11_2;
+	qb:Slice :ds1_11_3;
+	qb:Slice :ds1_11_4;
+	qb:Slice :ds1_12_2;
+	qb:Slice :ds1_12_3;
+	qb:Slice :ds1_12_4;
+	qb:Slice :ds1_13_2;
+	qb:Slice :ds1_13_3;
+	qb:Slice :ds1_13_4;
+	qb:Slice :ds1_14_2;
+	qb:Slice :ds1_14_3;
+	qb:Slice :ds1_14_4;
+	qb:Slice :ds1_15_2;
+	qb:Slice :ds1_15_3;
+	qb:Slice :ds1_15_4;
+	qb:Slice :ds1_16_2;
+	qb:Slice :ds1_16_3;
+	qb:Slice :ds1_16_4;
+	qb:Slice :ds1_17_2;
+	qb:Slice :ds1_17_3;
+	qb:Slice :ds1_17_4;
+	qb:Slice :ds1_18_2;
+	qb:Slice :ds1_18_3;
+	qb:Slice :ds1_18_4;
+	qb:Slice :ds1_19_2;
+	qb:Slice :ds1_19_3;
+	qb:Slice :ds1_19_4;
+	qb:Slice :ds1_20_2;
+	qb:Slice :ds1_20_3;
+	qb:Slice :ds1_20_4 .
+
+:ds2 rdf:type qb:Dataset;
+	dc:title "Survey sample of different workforceSizes";
+	qb:Slice :ds2_28_2;
+	qb:Slice :ds2_28_3;
+	qb:Slice :ds2_28_4;
+	qb:Slice :ds2_28_5 .
+
+:ds1_5_2 rdf:type qb:Observation;
+	rdf:value 15;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :MiningAndQuarrying;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_3 rdf:type qb:Observation;
+	rdf:value 13;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :MiningAndQuarrying;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_5_4 rdf:type qb:Observation;
+	rdf:value 28;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :MiningAndQuarrying;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_2 rdf:type qb:Observation;
+	rdf:value 1785;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_3 rdf:type qb:Observation;
+	rdf:value 1370;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_6_4 rdf:type qb:Observation;
+	rdf:value 3155;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :Manufacturing;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_2 rdf:type qb:Observation;
+	rdf:value 130;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_3 rdf:type qb:Observation;
+	rdf:value 71;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_7_4 rdf:type qb:Observation;
+	rdf:value 201;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_2 rdf:type qb:Observation;
+	rdf:value 722;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_3 rdf:type qb:Observation;
+	rdf:value 312;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_8_4 rdf:type qb:Observation;
+	rdf:value 1034;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :Construction;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_2 rdf:type qb:Observation;
+	rdf:value 1819;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_3 rdf:type qb:Observation;
+	rdf:value 1180;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_9_4 rdf:type qb:Observation;
+	rdf:value 2999;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_2 rdf:type qb:Observation;
+	rdf:value 975;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_3 rdf:type qb:Observation;
+	rdf:value 659;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_10_4 rdf:type qb:Observation;
+	rdf:value 1634;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :AccommodationAndFoodServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_2 rdf:type qb:Observation;
+	rdf:value 528;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_3 rdf:type qb:Observation;
+	rdf:value 335;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_11_4 rdf:type qb:Observation;
+	rdf:value 863;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :TransportationAndStorage;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_2 rdf:type qb:Observation;
+	rdf:value 794;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_3 rdf:type qb:Observation;
+	rdf:value 422;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_12_4 rdf:type qb:Observation;
+	rdf:value 1216;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :InformationAndCommunication;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_2 rdf:type qb:Observation;
+	rdf:value 112;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :RealEstateActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_3 rdf:type qb:Observation;
+	rdf:value 88;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :RealEstateActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_13_4 rdf:type qb:Observation;
+	rdf:value 200;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :RealEstateActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_2 rdf:type qb:Observation;
+	rdf:value 1303;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_3 rdf:type qb:Observation;
+	rdf:value 720;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_14_4 rdf:type qb:Observation;
+	rdf:value 2023;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :ProfessionalScientificAndTechnicalActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_2 rdf:type qb:Observation;
+	rdf:value 1287;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_3 rdf:type qb:Observation;
+	rdf:value 1072;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_15_4 rdf:type qb:Observation;
+	rdf:value 2359;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :AdministrativeAndSupportServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_2 rdf:type qb:Observation;
+	rdf:value 303;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_3 rdf:type qb:Observation;
+	rdf:value 457;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_16_4 rdf:type qb:Observation;
+	rdf:value 760;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :Education;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_2 rdf:type qb:Observation;
+	rdf:value 145;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_3 rdf:type qb:Observation;
+	rdf:value 149;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_17_4 rdf:type qb:Observation;
+	rdf:value 294;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :HumanHealthAndSocialWorkActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_18_2 rdf:type qb:Observation;
+	rdf:value 415;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_18_3 rdf:type qb:Observation;
+	rdf:value 303;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_18_4 rdf:type qb:Observation;
+	rdf:value 718;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :ArtsEntertainmentAndRecreation;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_19_2 rdf:type qb:Observation;
+	rdf:value 108;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :OtherServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_19_3 rdf:type qb:Observation;
+	rdf:value 29;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :OtherServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_19_4 rdf:type qb:Observation;
+	rdf:value 137;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :OtherServiceActivities;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_20_2 rdf:type qb:Observation;
+	rdf:value 10442;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSizelessThan250;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_20_3 rdf:type qb:Observation;
+	rdf:value 7181;
+	qb:dataset :ds1;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds1_20_4 rdf:type qb:Observation;
+	rdf:value 17623;
+	qb:dataset :ds1;
+	qb:dimension :Total;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_Industries .
+
+:ds2_28_2 rdf:type qb:Observation;
+	rdf:value 1326;
+	qb:dataset :ds2;
+	qb:dimension :WorkforceSize0to99;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_28_3 rdf:type qb:Observation;
+	rdf:value 9116;
+	qb:dataset :ds2;
+	qb:dimension :WorkforceSize100to249;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_28_4 rdf:type qb:Observation;
+	rdf:value 7181;
+	qb:dataset :ds2;
+	qb:dimension :WorkforceSize250+;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+
+:ds2_28_5 rdf:type qb:Observation;
+	rdf:value 17623;
+	qb:dataset :ds2;
+	qb:dimension :Total;
+	qb:dimension :AllIndustries;
+	qb:dimension :Time_4/2020-5/2020;
+	qb:dimension :CW_WorkforceSizes .
+

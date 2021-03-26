@@ -834,7 +834,7 @@
 	qb:dimension :CW_Industries .
 
 :ds1_15_7 rdf:type qb:Observation;
-	rdf:value 0.003;
+	rdf:value 0;
 	qb:dataset :ds1;
 	qb:dimension :Accreditedfinanceagreements;
 	qb:dimension :HumanHealthAndSocialWorkActivities;

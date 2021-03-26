@@ -36,11 +36,11 @@
 :Continuingtotrade rdf:type CW_businessInvestigation:CW_CurrentStatus;
 	 dc:title "Continuing to trade" .
 
-:Haspermanentlyceasedtrading__永久停止交易 rdf:type CW_businessInvestigation:CW_CurrentStatus;
-	 dc:title "Has permanently ceased trading ** 永久停止交易" .
+:Haspermanentlyceasedtrading__ rdf:type CW_businessInvestigation:CW_CurrentStatus;
+	 dc:title "Has permanently ceased trading ** " .
 
-:Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易 rdf:type CW_businessInvestigation:CW_CurrentStatus;
-	 dc:title "Has temporarily closed or temporarily paused trading  暂时关闭或暂时暂停交易" .
+:Hastemporarilyclosedortemporarilypausedtrading rdf:type CW_businessInvestigation:CW_CurrentStatus;
+	 dc:title "Has temporarily closed or temporarily paused trading  " .
 
 :Manufacturing rdf:type CW_businessInvestigation:CW_Industries;
 	 dc:title "Manufacturing" .
@@ -206,7 +206,7 @@
 :ds1_5_3 rdf:type qb:Observation;
 	rdf:value 0.004;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :Manufacturing;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -214,7 +214,7 @@
 :ds1_5_4 rdf:type qb:Observation;
 	rdf:value 0.206;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :Manufacturing;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -230,7 +230,7 @@
 :ds1_6_3 rdf:type qb:Observation;
 	rdf:value 0;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -238,7 +238,7 @@
 :ds1_6_4 rdf:type qb:Observation;
 	rdf:value 0.1;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :WaterSupplySewerageWasteManagementAndRemediationActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -254,7 +254,7 @@
 :ds1_7_3 rdf:type qb:Observation;
 	rdf:value 0.007;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :Construction;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -262,7 +262,7 @@
 :ds1_7_4 rdf:type qb:Observation;
 	rdf:value 0.261;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :Construction;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -278,7 +278,7 @@
 :ds1_8_3 rdf:type qb:Observation;
 	rdf:value 0.005;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -286,7 +286,7 @@
 :ds1_8_4 rdf:type qb:Observation;
 	rdf:value 0.243;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :WholesaleAndRetailTradeRepairOfMotorVehiclesAndMotorcycles;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -302,7 +302,7 @@
 :ds1_9_3 rdf:type qb:Observation;
 	rdf:value 0.012;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :AccommodationAndFoodServiceActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -310,7 +310,7 @@
 :ds1_9_4 rdf:type qb:Observation;
 	rdf:value 0.806;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :AccommodationAndFoodServiceActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -326,7 +326,7 @@
 :ds1_10_3 rdf:type qb:Observation;
 	rdf:value 0;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :TransportationAndStorage;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -334,7 +334,7 @@
 :ds1_10_4 rdf:type qb:Observation;
 	rdf:value 0.085;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :TransportationAndStorage;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -350,7 +350,7 @@
 :ds1_11_3 rdf:type qb:Observation;
 	rdf:value 0.005;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :InformationAndCommunication;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -358,7 +358,7 @@
 :ds1_11_4 rdf:type qb:Observation;
 	rdf:value 0.0451232;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :InformationAndCommunication;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -374,7 +374,7 @@
 :ds1_12_3 rdf:type qb:Observation;
 	rdf:value 0.003;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :ProfessionalScientificAndTechnicalActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -382,7 +382,7 @@
 :ds1_12_4 rdf:type qb:Observation;
 	rdf:value 0.03;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :ProfessionalScientificAndTechnicalActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -398,7 +398,7 @@
 :ds1_13_3 rdf:type qb:Observation;
 	rdf:value 0.004;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :AdministrativeAndSupportServiceActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -406,7 +406,7 @@
 :ds1_13_4 rdf:type qb:Observation;
 	rdf:value 0.081;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :AdministrativeAndSupportServiceActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -422,7 +422,7 @@
 :ds1_14_3 rdf:type qb:Observation;
 	rdf:value 0.006;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :Education;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -430,7 +430,7 @@
 :ds1_14_4 rdf:type qb:Observation;
 	rdf:value 0.126;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :Education;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -444,9 +444,9 @@
 	qb:dimension :CW_Industries .
 
 :ds1_15_3 rdf:type qb:Observation;
-	rdf:value 0.014;
+	rdf:value 0.013;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :HumanHealthAndSocialWorkActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -454,7 +454,7 @@
 :ds1_15_4 rdf:type qb:Observation;
 	rdf:value 0.049;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :HumanHealthAndSocialWorkActivities;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -470,7 +470,7 @@
 :ds1_16_3 rdf:type qb:Observation;
 	rdf:value 0;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :ArtsEntertainmentAndRecreation;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -478,7 +478,7 @@
 :ds1_16_4 rdf:type qb:Observation;
 	rdf:value 0.795;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :ArtsEntertainmentAndRecreation;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -494,7 +494,7 @@
 :ds1_17_3 rdf:type qb:Observation;
 	rdf:value 0.005;
 	qb:dataset :ds1;
-	qb:dimension :Haspermanentlyceasedtrading__永久停止交易;
+	qb:dimension :Haspermanentlyceasedtrading__;
 	qb:dimension :AllIndustries;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
@@ -502,7 +502,7 @@
 :ds1_17_4 rdf:type qb:Observation;
 	rdf:value 0.228;
 	qb:dataset :ds1;
-	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading暂时关闭或暂时暂停交易;
+	qb:dimension :Hastemporarilyclosedortemporarilypausedtrading;
 	qb:dimension :AllIndustries;
 	qb:dimension :Time_4/2020-5/2020;
 	qb:dimension :CW_Industries .
